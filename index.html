@@ -1,52 +1,88 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Fanielle Lucie</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Fanielle Lucie</div>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#parcours">Parcours</a></li>
+            <li><a href="#experience">Expériences</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <img src="23.jpg" alt="Photo de Lucie Fanielle" class="profile-photo">
-        <h1>Fanielle Lucie</h1>
-        <p>Étudiante en 3e année en licence professionnelle de commercialisation de services et produits sportifs, à la recherche d’une alternance.</p>
-      </header>
-      <section class="info">
-        <div class="contact">
-          <h2>Coordonnées</h2>
-          <p><strong>Adresse :</strong> 16 rue des baudes, 95450 Longuesse</p>
+    <!-- Header Section -->
+    <header id="accueil">
+        <div class="hero">
+            <img src="23.jpg" alt="Lucie Fanielle" class="profile-photo">
+            <h1>Fanielle Lucie</h1>
+            <p> Étudiante en 3e année - Licence Professionnelle Sport Business</p>
+            <a href="#parcours" class="btn">Découvrez mon parcours</a>
+        </div>
+    </header>
 
-      <p><strong>Email :</strong> l.fanielle@ileps.fr</p> 
-          <p><strong>Téléphone :</strong> 06.63.43.13.42</p> 
-          <p><strong>Date de naissance :</strong> 23/04/2005</p> 
-          <p><strong>Permis :</strong> Permis B</p> </div> 
-        
-        <div class="education"> <h2>École</h2>
-          <p><strong>Université :</strong> ILEPS, 95800 Cergy</p> 
-        </div> 
-      </section> 
-      
-      <section class="details"> 
-        <div class="formation"> 
-          <h2>Diplômes/Formations</h2> <ul> <li>2e année de licence professionnelle, 2023</li>
-            <li>Baccalauréat (Spécialités : Maths, SVT, SES), 2022</li> <li>PSC1, 2019</li> 
-            <li>ASSR 1 & 2</li> </ul> </div> <div class="experience"> <h2>Expériences professionnelles</h2> 
-              <ul> <li><strong>Alternance au Cosmo Taverny</strong> (Depuis sept. 2023) <ul> 
-                <li>Chargée de communication</li> <li>Organisation d’événements/projets</li> 
-                <li>Entraîneuse U11 féminine</li> </ul> </li> <li><strong>Stage à Sannois Saint Gratien</strong> (mai 2023)
-                  <ul> <li>Co-organisation de tournoi</li> <li>Création d’affiches</li> <li>Animation d’événements</li> </ul> 
-                </li> 
-              </ul> 
-            </div> 
-      </section> 
-      <footer> <h2>Centres d’intérêts et compétences</h2> 
-        <a href="https://www.fff.fr/competition/engagement/428352-seniors-feminines-r1/phase/1/classement.html?gp_no=1" target="_blank" rel="noopener noreferrer">Football</a>, sport pratique en équipe.
-                  <p><strong>Loisirs :</strong> Football, sport pratique en équipe.</p>
-                  <p><strong>Langues :</strong> Français, Anglais (B2), Espagnol (B1), Italien (A1)</p> 
-                  <p><strong>Techniques :</strong> Excel, Word, PowerPoint, Canva, Adobe.
-                </p> 
-      </footer> </div> 
-  </body> </html>
+    <!-- Section Parcours -->
+    <section id="parcours" class="section">
+        <h2>Mon Parcours Académique</h2>
+        <div class="parcours-content">
+            <div class="card">
+                <h3>ILEPS, Cergy</h3>
+                <p>3e année Licence Pro - Sport Business</p>
+            </div>
+            <div class="card">
+                <h3>Baccalauréat 2022</h3>
+                <p>Spécialités : Maths, SVT, SES</p>
+            </div>
+            <div class="card">
+                <h3>Diplômes</h3>
+                <p>PSC1, ASSR 1 & 2</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Expérience -->
+    <section id="experience" class="section">
+        <h2>Mes Expériences Professionnelles</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Alternance - Cosmo Taverny</h3>
+                <p>Chargée de communication | Entraîneuse U11 féminine</p>
+                <span>Depuis Septembre 2023</span>
+            </div>
+            <div class="timeline-item">
+                <h3>Stage - Sannois Saint Gratien</h3>
+                <p>Co-organisation de tournoi, création d'affiches</p>
+                <span>Mai 2023</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contactez-moi</h2>
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Votre nom" required>
+                <input type="email" placeholder="Votre email" required>
+                <textarea placeholder="Votre message"></textarea>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Fanielle Lucie &copy; 2024 | Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
+
