@@ -158,6 +158,24 @@ h2 {
     font-size: 0.9em;
     color: #777;
 }
+/* Galerie Photos */
+.photo-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.photo-gallery img {
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.photo-gallery img:hover {
+    transform: scale(1.05);
+}
 
 /* Contact Form */
 .contact-form {
