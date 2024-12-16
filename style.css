@@ -196,6 +196,22 @@ h2 {
     font-size: 0.9em;
     color: #777;
 }
+
+<!-- Section pour télécharger le CV -->
+.btn {
+    display: inline-block;
+    background: #f05d75; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* Enlève le soulignement */
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #ff7b94; /* Effet au survol */
+}
+
 /* Galerie Photos */
 .photo-gallery {
     display: flex;
