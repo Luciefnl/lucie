@@ -52,23 +52,49 @@ nav ul li a:hover {
 
 /* Hero Section */
 header {
-    background: url('rien') no-repeat center center/cover;
+    position: relative;
     height: 100vh;
-    color: #003366; /* Texte en bleu */
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
+    color: #003366; /* Couleur du texte */
+}
+
+/* Calque pour l'image semi-transparente */
+header::before {
+    content: "";
+    background: url('psg.png') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; /* Rendre l'image semi-transparente */
+    z-index: -2; /* Derrière tout le contenu */
+}
+
+/* Fond blanc opaque derrière le contenu */
+header::after {
+    content: "";
+    background-color: rgba(255, 255, 255, 0.8); /* Fond blanc semi-opaque */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Entre l'image et le texte */
 }
 
 header .hero-content {
-    background-color: rgba(255, 255, 255, 0.8); /* Fond blanc semi-transparent */
+    position: relative; /* S'assurer que le contenu est au-dessus des calques */
+    background-color: rgba(255, 255, 255, 0.9); /* Fond blanc légèrement opaque */
     padding: 20px;
-    border-radius: 10px; /* Coins arrondis pour le fond blanc */
+    border-radius: 10px;
     display: inline-block;
-    max-width: 80%; /* Ajuste la largeur du fond */
-    margin: 0 auto; /* Centre horizontalement */
+    max-width: 80%;
+    margin: 0 auto;
+    z-index: 1; /* Texte au-dessus du fond */
 }
 
 header .profile-photo {
@@ -82,7 +108,7 @@ header .profile-photo {
 header h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
-    color: #003366; /* Assure la couleur bleu */
+    color: #003366; /* Texte en bleu */
 }
 
 header p {
@@ -104,6 +130,7 @@ header p {
 .btn:hover {
     background: #ff7b94;
 }
+
 
 /* Sections */
 .section {
