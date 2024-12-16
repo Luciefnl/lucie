@@ -54,12 +54,21 @@ nav ul li a:hover {
 header {
     background: url('psg.jpg') no-repeat center center/cover;
     height: 100vh;
-    color: #fff;
+    color: #003366; /* Texte en bleu */
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
+}
+
+header .hero-content {
+    background-color: rgba(255, 255, 255, 0.8); /* Fond blanc semi-transparent */
+    padding: 20px;
+    border-radius: 10px; /* Coins arrondis pour le fond blanc */
+    display: inline-block;
+    max-width: 80%; /* Ajuste la largeur du fond */
+    margin: 0 auto; /* Centre horizontalement */
 }
 
 header .profile-photo {
@@ -73,11 +82,13 @@ header .profile-photo {
 header h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
+    color: #003366; /* Assure la couleur bleu */
 }
 
 header p {
     font-size: 1.2em;
     margin-bottom: 20px;
+    color: #003366; /* Texte en bleu */
 }
 
 .btn {
