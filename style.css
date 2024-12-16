@@ -231,6 +231,37 @@ h2 {
     transform: scale(1.05);
 }
 
+/* Style pour la section réseaux sociaux */
+.social-media {
+    display: flex;
+    justify-content: center; /* Centrage horizontal */
+    gap: 20px; /* Espacement entre les icônes */
+    margin-top: 20px; /* Espacement avec le reste du contenu */
+}
+
+/* Style pour chaque lien */
+.social-link {
+    text-decoration: none; /* Enlever le soulignement */
+    transition: transform 0.3s ease; /* Animation fluide */
+}
+
+/* Style pour les icônes */
+.social-icon {
+    width: 40px; /* Taille des icônes */
+    height: 40px;
+    border-radius: 50%; /* Icônes arrondies */
+    transition: opacity 0.3s ease;
+}
+
+/* Effet au survol */
+.social-link:hover {
+    transform: scale(1.1); /* Agrandissement léger */
+}
+
+.social-icon:hover {
+    opacity: 0.7; /* Réduction de l'opacité au survol */
+}
+
 /* Contact Form */
 .contact-form {
     max-width: 600px;
