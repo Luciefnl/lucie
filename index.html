@@ -1,82 +1,673 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Fanielle Lucie</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+<html lang="fr"><head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+
+  <title>Laura Gagnaire | chargée de communication | Portfolio</title>
+  <meta content="portfolio, communication, chargée de communication, CV" name="keywords">
+  <meta content="Chargée de communication, j'exerce mon métier avec une passion et une curiosité intarissables. Découvrez-en plus sur mon portfolio." name="description">
+
+  <link rel="canonical" href="https://lauragagnaire.com/index.html">
+
+  <!-- Google Fonts -->
+  <!--<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>-->
+  <!--<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto" rel="stylesheet">-->
+  <!--<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Roboto:100,300,400,500,700,900" rel="stylesheet">-->
+  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&amp;family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet"> 
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <!--<link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
+
+  <!-- link hoverimg-->
+  <link rel="stylesheet" type="text/css" href="css/css-hoverimg/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/css-hoverimg/demo.css">
+  <link rel="stylesheet" type="text/css" href="css/css-hoverimg/set1.css">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Responsive css -->
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png">
+
+  <!-- =======================================================
+    Theme Name: Folio
+    Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
 </head>
+
 <body>
-    <nav>
-        <div class="logo">Fanielle Lucie</div>
-        <ul>
-            <li><a href="#accueil">Accueil</a></li>
-            <li><a href="#competences">Compétences</a></li>
-            <li><a href="#experience">Expériences</a></li>
-            <li><a href="#projets">Projets</a></li>
-            <li><a href="#contact">Contact</a></li>
+
+  <!-- start section navbar -->
+  <nav id="main-nav" style="display: block;">
+    <div class="row">
+      <div class="container">
+
+       <!-- <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        </div>-->
+
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+
+        <ul class="nav-menu list-unstyled">
+          <li><a href="#header" class="smoothScroll">ACCUEIL</a></li>
+          <li><a href="#a-propos" class="smoothScroll">PRÉSENTATION</a></li>
+          <li><a href="#competences" class="active">COMPÉTENCES</a></li>
+          <li><a href="#experiences" class="smoothScroll">EXPÉRIENCES</a></li>
+          <li><a href="#portfolio">RÉALISATIONS</a></li>
+          <!--<li><a href="#journal" class="smoothScroll">Et après ?</a></li>-->
+          <li><a href="#contact" class="smoothScroll">CONTACT</a></li>
         </ul>
-    </nav>
 
-    <header id="accueil">
-        <div class="hero">
-            <h1>Fanielle Lucie</h1>
-            <p>Passionnée par l'organisation d'événements et la communication.</p>
-            <a href="#competences" class="btn">Découvrez mes compétences</a>
-        </div>
-    </header>
+      </div>
+    </div>
+  </nav>
+  <!-- End section navbar -->
 
-    <section id="competences" class="section">
-        <h2>Compétences</h2>
-        <div class="skills">
-            <h3>Compétences Techniques</h3>
-            <ul>
-                <li>Gestion de projet</li>
-                <li>Design graphique (Canva, Photoshop)</li>
-                <li>Communication digitale</li>
-            </ul>
-            <h3>Compétences Relationnelles</h3>
-            <ul>
-                <li>Esprit d'équipe</li>
-                <li>Autonomie</li>
-                <li>Gestion du stress</li>
-            </ul>
-        </div>
-    </section>
 
-    <section id="experience" class="section">
-        <h2>Expériences</h2>
-        <div class="timeline">
-            <div class="timeline-item">
-                <h3>Cosmo Taverny</h3>
-                <p>Chargée de communication et entraîneuse U11 féminines.</p>
-                <span>Depuis 2023</span>
+  <!-- start section header -->
+  <div id="header" class="home img-responsive">
+    <div class="container">
+      <div class="header-content">
+      	<h1 style="text-shadow: 2px 2px #898989; color: black;">Laura GAGNAIRE <br> <strong> Chargée de communication </strong></h1>
+      </div>
+    </div>
+  </div>
+<!-- end section header-->
+ 
+
+  <!-- start section about -->
+  <div id="a-propos" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="images/me.jpg" class="img-responsive" alt="Laura Gagnaire chargée de communication">
             </div>
+          </div>
         </div>
-    </section>
 
-    <section id="projets" class="section">
-        <h2>Projets</h2>
-        <p>Quelques projets réalisés :</p>
-        <ul>
-            <li>Organisation de tournois sportifs</li>
-            <li>Création de visuels pour événements</li>
+        <div class="col-lg-7">
+          <div class="about-descr">
+            <p class="p-heading"> Parlez-moi de vous...</p>
+         <p class="" style="font-family: Roboto; text-align: justify;">💼 Je suis actuellement <strong>chargée de communication</strong> au sein de la centrale nucléaire EDF de Civaux.</p>
+            <!--  <p style="font-family: Roboto; text-align: justify;">Les zones géographiques que je souhaite privilégier sont les suivantes : la région Auvergne-Rhône-Alpes, la région Nouvelle-Aquitaine et le département de l'Hérault (34). Étant mobile et véhiculée, je reste ouverte aux opportunités localisées en dehors de ces périmètres !</p>-->
+            <p style="font-family: Roboto; text-align: justify;">Titulaire d'un master en communication et forte d'expériences professionnelles dans les domaines de la production nucléaire et de la distribution publique d’électricité puis en collectivité, je reste résolument passionnée par mon métier. 🤩</p>
+            <p style="font-family: Roboto; text-align: justify;">Je suis curieuse de tout, ne crains pas de sortir de ma zone de confort (au contraire) et je m’épanouis particulièrement dans les univers industriels et / ou innovants. </p>
+            <p style="font-family: Roboto; text-align: justify;"> Polyvalente, à l’aise avec la <strong>communication interne et externe</strong> et <strong>l'événementiel</strong>, j’apprécie de varier les missions et les sujets, qui sont autant d’opportunités de s’enrichir, professionnellement, intellectuellement et humainement ! 🚀</p>
+
+            <div class=""><a href="documents/Gagnaire-Laura-chargeedecommunication-CV2023.pdf" target="_blank" title="CV Laura Gagnaire - chargée de communication" lang="fr" style="text-decoration: underline;"><button type="button" class="btn btn-info" style="color:black;"><i class="bi bi-download"> </i> Télécharger mon CV</button></a></div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- end section about -->
+
+  <!-- start skills section-->
+
+  <section id="competences" class="services section-bg">
+      <div class="container">
+          <h2 class="paddsection text-center text-white">Et côté compétences ?</h2>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-bullseye"></i></div>
+              <h4 class="title"><a><strong>Stratégie</strong></a></h4>
+              <div class="description">• Définition et mise en œuvre d'un plan de communication cohérent avec les objectifs de l'entreprise (ou de l'organisation) ;</div>
+              <div class="description">• Suivi et analyse de performances ;</div>
+              <div class="description">• Veille stratégique et concurrentielle.</div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-pen"></i></div>
+              <h4 class="title"><a><strong>Rédaction</strong></a></h4>
+              <div class="description">• Une plume aiguisée pour trouver les mots justes et véhiculer un message cohérent, adapté aux supports et aux cibles visées ;</div>
+              <div class="description">• Un œil de lynx pour veiller à la qualité de la rédaction (orthographe, grammaire, etc.).</div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-calendar-event"></i></div>
+              <h4 class="title"><a><strong>Événementiel / gestion de projet</strong></a></h4>
+              <div class="description">• Planification des tâches, pilotage des prestataires ;</div>
+              <div class="description">• Suivi des invitations et des budgets ;</div>
+              <div class="description">• Coordination des acteurs pour un déroulé qualitatif, en phase avec les objectifs de l’entreprise.</div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-camera-reels"></i></div>
+              <h4 class="title"><a><strong>Vidéos</strong></a></h4>
+              <div class="description">• Rédaction d’un brief, définition d’un concept, rédaction d’un script ;</div>
+              <div class="description">• Captation, montage, sous-titrage ;</div>
+              <div class="description">• Maîtrise du logiciel Adobe Premiere pro.</div>
+            </div>
+          </div>
+        </div>
+        <p></p>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-card-image"></i></div>
+              <h4 class="title"><a><strong>Infographie</strong></a></h4>
+              <div class="description">• Créer des illustrations, mettre en page des supports pour l’impression ou les écrans.</div>
+              <div class="description">• Assurer la cohérence graphique des productions pour un résultat attractif et efficace.</div>
+              <div class="description">• Maîtrise de la suite créative Adobe (Illustrator, InDesign, Photoshop), Canva.</div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-chat-right-quote"></i></div>
+              <h4 class="title"><a><strong>Community management</strong></a></h4>
+            <div class="description">• Définir un calendrier éditorial cohérent avec la stratégie de l’entreprise.</div>
+            <div class="description">• Création / programmation des posts et des contenus associés.</div>
+            
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-newspaper"></i></div>
+              <h4 class="title"><a><strong>Relations presse</strong></a></h4>
+              <div class="description">• Rédaction de communiqués de presse et envoi à des médias ciblés (presse locale, presse spécialisée, etc).</div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-file-earmark-code"></i></div>
+              <h4 class="title"><a><strong>Programmation web</strong></a></h4>
+              <div class="description">• Notions de codage (langages HTML et CSS).</div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+    </section>
+    <!-- End skills section -->
+
+
+<!-- start qualities section -->
+   <div id="qualities-container">
+      <div class="">
+        <h2 class="text-center" id="qualities">En bref, je suis <span class="typed">po</span><span class="typed-cursor">|</span></h2>
+      </div>
+   </div>
+  <!-- End qualities section --> 
+
+
+<!-- Start experiences section-------------------------------------------->
+
+<section id="experiences" class="services-expe">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <p></p>
+          <h2 style="font-size:2rem;">J'ai travaillé au sein de...</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box" id="background-enedisbourgogne">
+              <h3 class="text-white">Enedis en Bourgogne</h3>
+              <h4 class="text-white">Chargée de communication 360°</h4>
+              <div class="text-white" style="font-size: 14px;">Mai 2023 à nov. 2023</div>
+              <br>
+              <a>Gestion de projets de communication interne, externe et événementielle.</a>
+              <br><br>
+              <p><a href="experiences-enedisbourgogne"> <!-- ATTENTION VERIFIER LIEN-->
+                <input type="button" value="En savoir +" class="ensavoirplus btn-sm" aria-label="en savoir plus sur l'expérience au sein d'Enedis Bourgogne">
+              </a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box" id="background-poleformation-auvergne">
+              <h3 class="text-white">Pôle Formation Auvergne</h3>
+              <h4 class="text-white">Chargée de la communication et attachée de direction</h4>
+              <div class="text-white" style="font-size: 14px;">Oct. 2022 à janv. 2023</div>
+              <br>
+              <a>Pilotage de la communication externe du centre de formation.</a>
+              <br><br>
+              <p><a href="experiences-pole-formation-auvergne"> <!-- ATTENTION VERIFIER LIEN-->
+                <input type="button" value="En savoir +" class="ensavoirplus btn-sm" aria-label="en savoir plus sur l'expérience au sein du Pôle formation Auvergne">
+              </a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box" id="background-ambazac">
+              <h3 class="text-white">Mairie d'Ambazac</h3>
+              <h4 class="text-white">Chargée de la communication et du conseil municipal des jeunes</h4>
+              <div class="text-white" style="font-size: 14px;">Janv. à août 2022</div>
+              <br>
+              <a>Pilotage de la communication externe de la commune.</a>
+              <br><br>
+              <p><a href="experiences-ambazac">
+                <input type="button" value="En savoir +" class="ensavoirplus btn-sm" aria-label="en savoir plus sur l'expérience au sein de la mairie d'Ambazac">
+              </a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box" id="background-enedis">
+                <h3 class="text-white">Enedis en Ile-de-France Ouest</h3>
+                <h4 class="text-white">Chargée de communication</h4>
+                <div class="text-white" style="font-size: 14px;">Janv. à sept. 2021</div>
+                <br>
+                <a>Pilotage de projets de communication offline et online.</a>
+                <p><a href="experiences-enedis">
+                  <input type="button" value="En savoir +" class="ensavoirplus btn-sm" aria-label="en savoir plus sur l'expérience au sein d'Enedis">
+                </a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box" id="background-edf">
+              <h3 style="color: white;">EDF</h3>
+              <h4 class="text-white">Chargée de communication</h4>
+               <div class="text-white" style="font-size: 14px;">Sept. 2017 à déc. 2020</div>
+               <br>
+              <a>4 contrats passionnants comme chargée de communication au sein de la filière nucléaire d'EDF.</a>
+              <br>
+              <p><a href="experiences-EDF">
+                <input type="button" value="En savoir +" class="ensavoirplus btn-sm" aria-label="en savoir plus sur l'expérience au sein d'EDF">
+               </a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box" id="background-cpam">
+             <h3 style="color: white;">CPAM du Puy-de-Dôme</h3>
+              <h4 class="text-white">Stagiaire chargée de communication</h4>
+              <div class="text-white" style="font-size: 14px;">Avril à août 2017</div>
+              <br>
+              <a>Refonte de la communication externe du Cap Santé Jeunes.</a>
+              <br><br>
+              <p>
+                <a href="experiences-cap-sante-jeunes">
+                <input type="button" value="En savoir +" class="ensavoirplus btn-sm" aria-label="en savoir plus sur l'expérience au sein du Cap Santé Jeunes"> 
+                </a>
+              </p> 
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box" id="background-uadp">
+              <h3 style="color: white;">Agence Un Air de Pixel</h3>
+               <h4 class="text-white">Stagiaire chargée de communication</h4>
+               <div class="text-white" style="font-size: 14px;">Avril 2016</div>
+               <br>
+              <a>Appui à des projets en web et graphisme.</a>
+              <br>
+              <p><a href="experiences-agence-unairdepixel">
+                <input type="button" value="En savoir +" class="ensavoirplus btn-sm" aria-label="en savoir plus sur l'expérience au sein de l'agence Un Air de Pixel">
+                </a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box" id="background-texto">
+              <h3 style="color: white;">Agence Texto</h3>
+               <h4 class="text-white">Stagiaire graphiste et assistante de communication</h4>
+               <div class="text-white" style="font-size: 14px;">Avril à juin 2015</div>
+               <br>
+              <a>Contribution à des projets de graphisme et de stratégie de marque.</a>
+              <br>
+              <p><a href="experiences-agence-texto">
+                <input type="button" value="En savoir +" class="ensavoirplus btn-sm" aria-label="en savoir plus sur l'expérience au sein de l'agence Texto">
+                </a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box" id="background-uadp">
+                <div class="eyes">
+                  <div class="eye"><div class="ball" style="left: 92.1569%; top: 30.2457%; transform: translate(-92.1569%, -30.2457%);"></div></div>
+                  <div class="eye"><div class="ball" style="left: 92.1569%; top: 30.2457%; transform: translate(-92.1569%, -30.2457%);"></div></div>
+               </div>
+            </div>
+          </div>
+          <script src="js/app.js"></script>
+        
+        </div>
+      </div>
+    </section>
+    <p></p>
+
+<!-- End experiences section-->
+      
+  <!-- start section portfolio -->
+
+    <div id="portfolio" class="text-center paddsection" style="background-color:#162330;">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2 style="color:white;">Quelques exemples de productions</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-list">
+            <ul class="nav list-unstyled" id="portfolio-flters">
+              <li class="filter filter-active" data-filter=".all">Tout</li>
+              <li class="filter" data-filter=".pao">PAO</li>
+              <li class="filter" data-filter=".poster">Affiches</li>
+              <li class="filter" data-filter=".print">Flyers / Print</li>
+              <li class="filter" data-filter=".logotype">Logo</li>
+              <li class="filter" data-filter=".webdesign">web design</li>
+              <li class="filter" data-filter=".event">Événementiel</li>
+              <li class="filter" data-filter=".writing">Rédactionnel</li>
+            </ul>
+          </div>
+
+          <div class="portfolio-container" style="position: relative; height: 8190.57px;">
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all logotype pao" style="position: absolute; left: 0px; top: 0px;">
+              <a class="popup-img" href="images/realisations/1.jpg">
+                <img src="images/realisations/1.jpg" alt="Logo conférences Eurêka">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all pao print" style="position: absolute; left: 0px; top: 389px;">
+              <a class="popup-img" href="images/realisations/2.jpg">
+                <img src="images/realisations/2.jpg" alt="Etiquettes quenelles">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all pao print" style="position: absolute; left: 0px; top: 779px;">
+              <a class="popup-img" href="images/realisations/3.jpg">
+                <img src="images/realisations/3.jpg" alt="flyer Cap Santé Jeunes">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all webdesign" style="position: absolute; left: 0px; top: 1169px;">
+              <a class="popup-img" href="images/realisations/4.jpg">
+                <img src="images/realisations/4.jpg" alt="Web design Wieder">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all pao print" style="position: absolute; left: 0px; top: 1559px;">
+              <a class="popup-img" href="images/realisations/5.jpg">
+                <img src="images/realisations/5.jpg" alt="Encart Linky">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all pao print" style="position: absolute; left: 0px; top: 1949px;">
+              <a class="popup-img" href="images/realisations/6.jpg">
+                <img src="images/realisations/6.jpg" alt="flyer Civaux - journées de l'industrie électrique">
+              </a>
+            </div>
+
+           <div class="col-lg-4 col-md-6 portfolio-thumbnail all poster" style="position: absolute; left: 0px; top: 2339px;">
+              <a class="popup-img" href="images/realisations/7.jpg">
+                <img src="images/realisations/7.jpg" alt="affiche prévention routière - alcool">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all pao print" style="position: absolute; left: 0px; top: 2729px;">
+              <a class="popup-img" href="images/realisations/8.jpg">
+                <img src="images/realisations/8.jpg" alt="Encart emplois d'Enedis dans les Hauts-de-France">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all pao print" style="position: absolute; left: 0px; top: 3119px;">
+              <a class="popup-img" href="images/realisations/9.jpg">
+                <img src="images/realisations/9.jpg" alt="Flyer Téléthon">
+              </a>
+            </div>
+
+           <div class="col-lg-4 col-md-6 portfolio-thumbnail all pao print" style="position: absolute; left: 0px; top: 3509px;">
+              <a class="popup-img" href="images/realisations/10.jpg">
+                <img src="images/realisations/10.jpg" alt="Encart réflexes coupure d'électricité">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all pao print" style="position: absolute; left: 0px; top: 3899px;">
+              <a class="popup-img" href="images/realisations/11.jpg">
+                <img src="images/realisations/11.jpg" alt="Flyer Cap Santé Jeunes ">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all poster" style="position: absolute; left: 0px; top: 4289px;">
+              <a class="popup-img" href="images/realisations/12.jpg">
+                <img src="images/realisations/12.jpg" alt="affiche prévention routière - vitesse">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all pao print" style="position: absolute; left: 0px; top: 4679px;">
+              <a class="popup-img" href="images/realisations/13.jpg">
+                <img src="images/realisations/13.jpg" alt="encart missions d'Enedis">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all pao writing" style="position: absolute; left: 0px; top: 5069px;">
+              <a class="popup-img" href="images/realisations/14.jpg">
+                <img src="images/realisations/14.jpg" alt="L'actu, journal interne de Civaux">
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all pao poster print" style="position: absolute; left: 0px; top: 5459px;">
+              <a class="popup-img" href="images/realisations/15.jpg">
+                <img src="images/realisations/15.jpg" alt="Campagne d'affichage sur les droits des femmes">
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all pao poster print" style="position: absolute; left: 0px; top: 5850px;">
+              <a class="popup-img" href="images/realisations/16.jpg">
+                <img src="images/realisations/16.jpg" alt="Affiches à dominante environnementale">
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all event" style="position: absolute; left: 0px; top: 6240px;">
+              <a class="popup-img" href="images/realisations/17.jpg">
+                <img src="images/realisations/17.jpg" alt="contribution à l'organisation du WNE 2020-21">
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all writing" style="position: absolute; left: 0px; top: 6630px;">
+              <a class="popup-img" href="images/realisations/18.jpg">
+                <img src="images/realisations/18.jpg" alt="bulletins municipaux d'Ambazac">
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all pao poster print" style="position: absolute; left: 0px; top: 7020px;">
+              <a class="popup-img" href="images/realisations/19.jpg">
+                <img src="images/realisations/19.jpg" alt="Propositions d'affiches pour l'anniversaire de la bibliothèque d'Ambazac">
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all pao poster print" style="position: absolute; left: 0px; top: 7410px;">
+              <a class="popup-img" href="images/realisations/20.jpg">
+                <img src="images/realisations/20.jpg" alt="Affiche pour l'évènement Ambazac fête la nature">
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all writing print" style="position: absolute; left: 0px; top: 7800px;">
+              <a class="popup-img" href="images/realisations/21.jpg">
+                <img src="images/realisations/21.jpg" alt="Lettre d'information externe de la centrale nucléaire de Paluel">
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End section portfolio -->
+
+
+ <!-- start section journal -->
+   <!--<div id="journal" class="text-left paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>journal</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="journal-block">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+              <a href="blog-single.html"><img src="images/blog-post-1.jpg" class="img-responsive" alt="img"></a>
+              <div class="journal-txt">
+                <h4><a href="blog-single.html">SO LETS MAKE THE MOST IS BEAUTIFUL</a></h4>
+                <p class="separator">To an English person, it will seem like simplified English
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+              <a href="blog-single.html"><img src="images/blog-post-2.jpg" class="img-responsive" alt="img"></a>
+              <div class="journal-txt">
+                <h4><a href="#blog-single.html">WE'RE GONA MAKE DREAMS COMES</a></h4>
+                <p class="separator">To an English person, it will seem like simplified English
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+              <a href="blog-single.html"><img src="images/blog-post-3.jpg" class="img-responsive" alt="img"></a>
+              <div class="journal-txt">
+                <h4><a href="blog-single.html">NEW LIFE CIVILIZATIONS TO BOLDLY</a></h4>
+                <p class="separator">To an English person, it will seem like simplified English
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div> -->
+  <!-- End section journal -->
+
+
+    
+  <!-- start section contact -->
+  
+<div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="contact">
+
+              <h2 class="mb-30">Pour un échange, un entretien <br> ou un café : </h2>
+
+              <ul class="contact-details">
+              	<li><span>Vous pouvez me contacter via : </span></li>
+                <li><span><i class="bi bi-envelope-fill" style="color:#0Ce0d9"></i><a href="mailto:lauragagnaire63@gmail.com"> lauragagnaire63@gmail.com</a></span></li>
+                <li><span><i class="bi bi-linkedin" style="color: #0Ce0d9;"></i><a href="https://www.linkedin.com/in/laura-gagnaire/" target="_blank"> LinkedIn</a> </span></li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="https://formspree.io/f/xnqlkljb" method="POST">
+              <label class="contact formtitles">
+                Votre prénom et nom :
+                <input type="text" name="_name" class="contact sendmessage">
+              </label>
+              <label class="contact formtitles">
+                Votre e-mail :
+                <input type="email" name="_replyto" class="contact sendmessage">
+              </label>
+              <label class="contact formtitles">
+                Objet : 
+                <input type="text" name="_subject" class="contact sendmessage">
+              </label>
+
+              <label class="contact formtitles">
+                Votre message :
+                <textarea class="contact sendmessage" name="message"></textarea>
+              </label>
+              <!-- your other form fields go here -->
+              <button id="formbutton" type="submit" style="">Envoyer (feu !)</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- end section contact -->
+
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+
+     <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="https://www.linkedin.com/in/laura-gagnaire/"> <i class="bi bi-linkedin"></i> </a></li>
         </ul>
-    </section>
+      </div>
 
-    <section id="contact" class="section">
-        <h2>Contact</h2>
-        <form>
-            <input type="text" placeholder="Nom" required>
-            <input type="email" placeholder="Email" required>
-            <textarea placeholder="Message"></textarea>
-            <button type="submit">Envoyer</button>
-        </form>
-    </section>
+      <p>© Copyrights Folio. All rights reserved.</p>
 
-    <footer>
-        <p>Fanielle Lucie &copy; 2024 | Tous droits réservés.</p>
-    </footer>
-</body>
-</html>
+      <div class="credits">
+        Based on a design by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+
+    </div>
+  </div>
+  <!-- End section footer -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+ 
+
+
+
+</body></html>
